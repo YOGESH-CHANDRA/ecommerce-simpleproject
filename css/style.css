@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500;600&family=Roboto+Slab:wght@100;200;800;900&family=Young+Serif&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+.slogan{
+  text-align: center;
+  padding: 20px;
+    top: 30%;
+    font-size: larger;
+}
+
+/* Slider  */
+
+.slider {
+  width: 100%;
+  margin: auto;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+
+.card {
+  padding: 1%;
+  margin: 0px auto;
+  position: absolute;
+  transition: 1s ease;
+  border-radius: 5%;
+}
+
+.dir {
+    width: 100%;
+    padding:0 2%;
+  position: absolute;
+  margin: auto;
+  top: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left,.right{
+  transform: scale(1.5);
+  background-color: transparent;
+  border:none;
+  width: 20px;
+   background-color: rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,19 @@
+
+1. Create separate folder for common pages, css, images and Js for project.
+
+2. In common pages folder create 2 html file for header and footer of the project
+
+3. in css folder create common style.css for all pages
+
+4. places all project images in images folder.
+
+5. All js (cart,index, login) file in js folder. 
+
+6. index.html file for homepage of project created.
+
+7. All the necccessory html file craeted as per project requirement.
+
+8. Write all html, css and javascript as per project and interlink each other as per requirement.
+
+9. In final step all pages verify pages responsences on screen size as per project.
+

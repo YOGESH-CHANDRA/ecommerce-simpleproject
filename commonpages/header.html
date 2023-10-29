@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Header</title>
+    <style>
+        :root{
+            --brandColor:#8F0101;
+        }
+        .logo {
+            height: 50px;
+        }
+
+        .brand-name {
+            font-size: 25px;
+        }
+        .bname, .fa-cart-shopping, .login, .search{
+            color: var(--brandColor);
+        }
+       .login, .search{
+        border:1px solid var(--brandColor);
+       }
+        
+    </style>
+</head>
+</head>
+
+<body>
+
+    <!-- Header first section -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary px-2">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light " href="./index.html">
+                <img src="../images/logo.png" alt="logo" srcset="" class="logo">
+                <span class="brand-name"><b><i><span class="bname">Y</span>shop</i></b></span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="m-auto d-flex">
+                    <input class="form-control" type="search" placeholder="Product name, Category name, etc"
+                        aria-label="Search">
+                    <button class="btn btn-outline-light search" type="submit">Search</button>
+                </form>
+                <div class="text-center my-2">
+                    <a href="./login.html" class="btn text-center btn-outline-light login">Login</a>
+                    <a href="./cart.html"><i class="fa-solid fa-cart-shopping fa-2xl px-2"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header second section -->
+    <ul class="nav justify-content-center bg-warning-subtle border border-1">
+        <li class="nav-item">
+            <a class="nav-link active" href="./index.html">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="./allproduct.html">All Product</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Women
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="./women.html">All products</a></li>
+                <li><a class="dropdown-item" href="./womendress.html">Dresses</a></li>
+                <li><a class="dropdown-item" href="./womenpants.html">Pants</a></li>
+                <li><a class="dropdown-item" href="./womensskirt.html">Skirts</a></li>
+            </ul>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Men
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="./mens.html">All Products</a></li>
+                <li><a class="dropdown-item" href="./menshirt.html">Shirts</a></li>
+                <li><a class="dropdown-item" href="./menspents.html">Pants</a></li>
+                <li><a class="dropdown-item" href="./menshoodies.html">Hoodies</a></li>
+            </ul>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="./kids.html">Kids</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+        </li>
+    </ul>
+
+</body>
+
+</html>
