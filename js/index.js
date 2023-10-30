@@ -36,13 +36,12 @@ const goPrev = () => {
 };
 const goNext = () => {
   if (
-    ((counter == cards.length - 3 && screenWidth > 768) ||
+    (counter == cards.length - 3 && screenWidth > 768) ||
     (counter == cards.length - 1 && (screenWidth < 769 || screenWidth > 576)) ||
-    (counter == cards.length && screenWidth < 577))
+    (counter == cards.length && screenWidth < 577)
   ) {
     counter = 0;
   } else {
-    console.log("counter:", counter);
     slideImage();
     counter++;
   }
